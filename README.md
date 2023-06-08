@@ -36,3 +36,15 @@ Run Status [
 
 problem is that the line `console.log('sync')` is never reached.
 
+## Versions at which the problem occurs:
+```bash
+@sap/cds: 6.8.2
+@sap/cds-compiler: 3.9.2
+@sap/cds-dk: 6.8.2
+@sap/cds-dk (global): 6.8.2
+@sap/cds-foss: 4.0.1
+@sap/cds-mtx: -- missing --
+@sap/eslint-plugin-cds: 2.6.3
+Node.js: v18.16.0
+cds-bug-3: 1.0.0
+```

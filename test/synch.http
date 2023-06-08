@@ -1,6 +1,11 @@
 
+@server=https://riz-inno-sbx-cds-bug-3-srv.cfapps.us10.hana.ondemand.com
+
 ###
-POST http://localhost:4004/synch/startSynch
+{{server}}/synch/Synchs
+
+###
+POST {{server}}/synch/startSynch
 Content-Type: application/json
 
 {

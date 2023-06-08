@@ -1,0 +1,26 @@
+{
+  "name": "cds-bug-3",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^6",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/eslint-plugin-cds": "^2.3.5",
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}

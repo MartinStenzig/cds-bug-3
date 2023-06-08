@@ -1,0 +1,9 @@
+
+###
+POST http://localhost:4004/synch/startSynch
+Content-Type: application/json
+
+{
+    "srcDestinationName": "sf-inno-api",
+    "transferEntityName": "User"
+}

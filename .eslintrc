@@ -1,0 +1,38 @@
+{
+  "env": {
+      "browser": false,
+      "es2021": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+  },
+  "extends": [
+      "standard",
+      "plugin:@sap/cds/recommended",
+      "plugin:chai-friendly/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "plugins": [
+      "chai-friendly"
+  ],
+  "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+  },
+  "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+  }
+}
